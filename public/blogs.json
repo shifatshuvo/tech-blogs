@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "cover": "https://i.ibb.co/z7h67S5/teamwork-making-online-blog.jpg",
+    "cover": "https://i.ibb.co/6rL1dfn/flat-lay-workstation-with-copy-space-laptop-min.jpg",
     "title": "The Mystery of Moonlight Manor",
     "author": "Emily Smith",
     "author_img": "https://i.ibb.co/Tt0zcV6/avt2.png",
@@ -11,7 +11,7 @@
   },
   {
     "id": "2",
-    "cover": "https://i.ibb.co/fYY9mD2/flat-lay-workstation-with-copy-space-laptop.jpg",
+    "cover": "https://i.ibb.co/j85pxTr/teamwork-making-online-blog-min.jpg",
     "title": "The Secret Garden",
     "author": "James Johnson",
     "author_img": "https://i.ibb.co/jJh8qC2/avt4.png",
@@ -21,7 +21,7 @@
   },
   {
     "id": "3",
-    "cover": "https://i.ibb.co/z7h67S5/teamwork-making-online-blog.jpg",
+    "cover": "https://i.ibb.co/6rL1dfn/flat-lay-workstation-with-copy-space-laptop-min.jpg",
     "title": "Beyond the Horizon",
     "author": "Sophie Williams",
     "author_img": "https://i.ibb.co/Tt0zcV6/avt2.png",
@@ -31,7 +31,7 @@
   },
   {
     "id": "4",
-    "cover": "https://i.ibb.co/fYY9mD2/flat-lay-workstation-with-copy-space-laptop.jpg",
+    "cover": "https://i.ibb.co/j85pxTr/teamwork-making-online-blog-min.jpg",
     "title": "Echoes of Eternity",
     "author": "Daniel Brown",
     "author_img": "https://i.ibb.co/jJh8qC2/avt4.png",
@@ -41,12 +41,12 @@
   },
   {
     "id": "5",
-    "cover": "https://i.ibb.co/z7h67S5/teamwork-making-online-blog.jpg",
+    "cover": "https://i.ibb.co/j85pxTr/teamwork-making-online-blog-min.jpg",
     "title": "The Art of Simplicity",
     "author": "Anna Green",
     "author_img": "https://i.ibb.co/Tt0zcV6/avt2.png",
     "posted_date": "2024-03-22",
     "reading_time": 8,
-    "hashtags": ["self-help", "motivation", "simplicity"]
+    "hashtags": ["self_help", "motivation", "simplicity"]
   }
 ]
