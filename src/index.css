@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap') */
+
+body {
+  font-family: "Exo 2", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: 400, 600 bold, 700;
+  font-style: normal; */
+}

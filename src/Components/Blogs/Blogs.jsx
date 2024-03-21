@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { useEffect } from "react";
 
 const Blogs = () => {
@@ -13,8 +13,8 @@ const Blogs = () => {
   }, [])
 
   return (
-    <div>
-      
+    <div className="md:w-2/3 bg-orange-200">
+      <h1 className="text-4xl">Blogs: {blogs.length}</h1>
     </div>
   );
 };
