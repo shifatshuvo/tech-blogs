@@ -12,16 +12,28 @@ function App() {
   const [readingTime, setReadingTime] = useState(0);
 
   const handleAddToBookmark = (blog) => {
+    const duplicateAdd = bookmarks.find(bookmark => bookmark.id == blog.id);
+    // console.log(blog.id);
+
+    if(duplicateAdd) {
+      alert("Blog already added!!");
+      return;
+    }
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
   }
 
 
   const handleMarkAsRead = (id, time) => {
-    setReadingTime(readingTime + time);
+
     // remove the read blog from bookmark
-    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
-    setBookmarks(remainingBookmarks);
+    if (bookmarks.length) {
+      const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+      setBookmarks(remainingBookmarks);
+      setReadingTime(readingTime + time);
+      return;
+    }
+    alert("Already Read!!");
   }
 
 

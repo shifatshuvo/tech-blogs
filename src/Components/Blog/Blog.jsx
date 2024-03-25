@@ -15,7 +15,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   return (
     <div className="md:mb-20 mb-8 p-4 rounded-md md:space-y-4 space-y-2 border border-purple-500">
       <img
-        className="md:w-5/6 w-96 mb-8 rounded-md"
+        className="md:w-11/12 w-96 mb-8 rounded-md"
         src={cover}
         alt={`cover pic of the ${title}`}
       />
